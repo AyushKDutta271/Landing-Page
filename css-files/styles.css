@@ -27,25 +27,34 @@ body{
 .downer{
    display: flex;
    justify-content: space-around;
-  padding: 0 188px;
+  padding: 0 200px;
 }
 
 .para-content{
    
     flex-direction: column;
     display: flex;
-    width:450px;
-    height:220px;
-    
+    width:480px;
+    height:215px;
+   
 }
+
 
 button{
     background-color: #3882F6;
     border-radius: 8px;
+    
+    
+}
+
+.button{
+  
+   margin-top:12px
 }
 
 .main-heading{
-   
+    box-sizing: border-box;
+    flex-wrap: wrap;
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -65,7 +74,7 @@ a{
 }
 
 
-p{
+.first-para{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900px;
@@ -92,3 +101,28 @@ p{
     color: #1F2937;
 }
 
+.two-four{
+    height:600px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote{
+    border:2px solid black;
+    width:700px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937
+}
+
+.designation{
+    
+    border:2px solid black;
+    display: flex;
+    justify-content: flex-end;
+   margin-top: 50px;
+    
+}
